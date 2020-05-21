@@ -6,4 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 puts "Creating restaurants..."
-restaurants = Restaurant.create()
+mushroom = {name: "Mushroom", address: "5 high street, London", category: "japanese", phone_number: "0173 167987234"}
+funky = {name: "Funky", address: "4 east lane, Manchester", category: "chinese", phone_number: "0173 356985174"}
